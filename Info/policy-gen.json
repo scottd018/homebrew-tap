@@ -16,11 +16,11 @@
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/scottd018/policy-gen/releases/download/v0.0.1/policy-gen_0.0.1_darwin_amd64.tar.gz",
+      "url": "https://github.com/scottd018/policy-gen/releases/download/v0.0.1/policy-gen_v0.0.1Darwin_x86_64.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "ca8015d40cad1692239b3032255aef01e8118991f7c052cbdbcd4564450fef76"
+      "checksum": "45243f487d11aa305003e468cb9d383bfe2f9c2422021a6a6ace24af9d47c546"
     }
   },
   "revision": 0,
@@ -57,6 +57,6 @@
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "c55d6459f4e90be0f7ad465474ae8016c35adfcded65efde7577e59c54bbfd90"
+    "sha256": "dafcd7caaac1c33a4072662339da0af2f51ae55ea3cb415271e11b2dd4d89862"
   }
 }
