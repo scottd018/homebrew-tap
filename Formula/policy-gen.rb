@@ -9,9 +9,9 @@ class PolicyGen < Formula
   license "MIT"
 
   on_macos do
-    if Hardware::CPU.arm?
-      url "https://github.com/scottd018/policy-gen/releases/download/v0.0.1/policy-gen_0.0.1_darwin_arm64.tar.gz"
-      sha256 "72de7a7aefff0df4d47e685f69ce47d59019811a5c27c535f69d0500abeb5ed0"
+    if Hardware::CPU.intel?
+      url "https://github.com/scottd018/policy-gen/releases/download/v0.0.1/policy-gen_v0.0.1Darwin_x86_64.tar.gz"
+      sha256 "45243f487d11aa305003e468cb9d383bfe2f9c2422021a6a6ace24af9d47c546"
 
       def install
         bin.install "policy-gen"
@@ -20,9 +20,9 @@ class PolicyGen < Formula
         fish_completion.install "completions/policy-gen.fish"
       end
     end
-    if Hardware::CPU.intel?
-      url "https://github.com/scottd018/policy-gen/releases/download/v0.0.1/policy-gen_0.0.1_darwin_amd64.tar.gz"
-      sha256 "ca8015d40cad1692239b3032255aef01e8118991f7c052cbdbcd4564450fef76"
+    if Hardware::CPU.arm?
+      url "https://github.com/scottd018/policy-gen/releases/download/v0.0.1/policy-gen_v0.0.1Darwin_arm64.tar.gz"
+      sha256 "24f256c48143a1e8bb05cd0b6db37a7fcd9da84670132ea59268aed5d54b1a54"
 
       def install
         bin.install "policy-gen"
@@ -35,8 +35,8 @@ class PolicyGen < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/scottd018/policy-gen/releases/download/v0.0.1/policy-gen_0.0.1_linux_arm64.tar.gz"
-      sha256 "62875f359d531a5ac5a485c99011afb97a74acfd8d0e16a4fb6c36b36d3bede6"
+      url "https://github.com/scottd018/policy-gen/releases/download/v0.0.1/policy-gen_v0.0.1Linux_arm64.tar.gz"
+      sha256 "fc6931704cd653f9c53c457cc4e18a92461dbda5272f395df6296c4e9696f8c3"
 
       def install
         bin.install "policy-gen"
@@ -46,8 +46,8 @@ class PolicyGen < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/scottd018/policy-gen/releases/download/v0.0.1/policy-gen_0.0.1_linux_amd64.tar.gz"
-      sha256 "899a587da1735df273490894e388cf651d7770ca223883468a121139aa6c5285"
+      url "https://github.com/scottd018/policy-gen/releases/download/v0.0.1/policy-gen_v0.0.1Linux_x86_64.tar.gz"
+      sha256 "b3ce5fbafd6a04fbae3f9b04eea043072935b919d50b31b6249eed223f4f8523"
 
       def install
         bin.install "policy-gen"
