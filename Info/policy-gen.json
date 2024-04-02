@@ -10,17 +10,17 @@
   "license": "MIT",
   "homepage": "https://github.com/scottd018/policy-gen",
   "versions": {
-    "stable": "0.0.1",
+    "stable": "0.0.2",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/scottd018/policy-gen/releases/download/v0.0.1/policy-gen_v0.0.1_Darwin_x86_64.tar.gz",
+      "url": "https://github.com/scottd018/policy-gen/releases/download/v0.0.2/policy-gen_v0.0.2_Darwin_x86_64.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "9060ec8992de34cf735fdc354a9ed042f6765c3f9be026b2641539d4400c2d6a"
+      "checksum": "392cfe32af9a29c6072f627268b4c5c512d755ebfc88dbdcc098f3f3fd644257"
     }
   },
   "revision": 0,
@@ -57,6 +57,6 @@
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "56a589b3086e885586f2f3feed0a85f033757fb3d693662eba6c902a5b4a71f5"
+    "sha256": "0841b5e440425887c06377f823773801d8d1a1eebd268f1e65c46d79a5e1117d"
   }
 }
